@@ -40,7 +40,7 @@ while ans:
     """)
     ans=input("[*] Please select GET (1) or POST (2) request: ")
     if ans=="1":
-      print("[x] Gopher GET Request")
+      print("[x] Gopher GET Request: ")
 
       tmp = urllib.parse. quote(GETrequest)
       new = tmp.replace('%0A','%0D%0A' )
@@ -51,7 +51,7 @@ while ans:
 
     elif ans=="2":
       print("[?] Informational: The four HTTP headers above are required for POST requests, namely POST, Host, Content-Type and Content-Length. If it is missing, an error will be reported, but GET does not use it.")
-      print("[x] Gopher POST Request")
+      print("[x] Gopher POST Request: ")
       tmp = urllib.parse. quote(POSTrequest)
       new = tmp.replace('%0A','%0D%0A' )
       result = 'gopher://127.0.0.1:80/'+'_'+ new
