@@ -7,7 +7,9 @@ Be careful not to forget the underscore "_" at the end. The TCP data stream begi
 Tip for determing POST request length:
 
 └─$ echo "username=admin&password=admin" | wc -c 
+ 
  Output= 30
+ 
  Subtract 1 from this result. = 29 -> Then add this to content length header.
 
 Example output:
