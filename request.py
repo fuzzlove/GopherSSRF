@@ -47,7 +47,7 @@ while ans:
       result = 'gopher://localhost:80/'+'_'+ new
       print (result)
       print
-      print ("[!] Happy Hacking ^_~")
+      print ("[!] Cheers m8, Press [Enter] to Exit ^_~")
 
     elif ans=="2":
       print("[?] Informational: The four HTTP headers above are required for POST requests, namely POST, Host, Content-Type and Content-Length. If it is missing, an error will be reported, but GET does not use it.")
@@ -57,7 +57,7 @@ while ans:
       result = 'gopher://127.0.0.1:80/'+'_'+ new
       print (result)
       print
-      print ("[!] Happy Hacking ^_~")
+      print ("[!] Cheers m8, Press [Enter] to Exit ^_~")
     elif ans !="":
       print("[!] Not Valid Choice Try again")
       print("[?] Press CTRL+C or Enter to exit")
