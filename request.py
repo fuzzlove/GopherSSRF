@@ -47,7 +47,7 @@ while ans:
                                                                         | $$
                                                                         | $$                                 By: Liquidsky
                                                                         |__/
-                               ~-( SSRF... HTTP based (GET/POST) gopher requests. )-~
+                               ~-( SSRF... HTTP based (GET/POST) gopher requests. )-~  - H4xing Tool
 """)
     print ("""
     1. Gopher GET Request
