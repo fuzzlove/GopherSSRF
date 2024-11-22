@@ -37,5 +37,5 @@ gopher://127.0.0.1:80/_POST%20/admin%20HTTP/1.1%0D%0AHost%3A%20127.0.0.1%0D%0ACo
 
 ----------
 
-Update: This script was helpful during a recent offensive-security course I took, I thought it would be nice to put it out in the universe.
+Update: This script was helpful during a recent offensive-security course I took, I thought it would be nice to put it out in the universe. It will help you form GET and POST requests that will be able to be used in SSRF.
 
